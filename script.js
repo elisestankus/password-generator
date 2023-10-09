@@ -13,6 +13,8 @@ function generatePass() {
     return num;
   }
 
+//built potential character pool by concatenating strings of each character type together -- the string containing each character type is only added to the character pool if the user says to include that type
+
   var characters = '';
 
   var lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
@@ -43,6 +45,11 @@ function generatePass() {
     characters = characters + specialChars;
   } 
 
+//at least one character type must be selected in order to generate a password
+
+  if (characters == '') {
+    window.alert("Error: you must enter 'Y' for at least one type of character in order to generate a password.")
+  }
 
 
 
