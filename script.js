@@ -36,6 +36,11 @@ function generatePass() {
     characters = characters + numbers;
   }
 
+  var specialChars = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+  var specialCharsYN = window.prompt("Include special characters? (Enter 'Y' or 'N')").toUpperCase();
+
+
+
 
 }
 
