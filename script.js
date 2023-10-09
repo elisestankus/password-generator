@@ -1,3 +1,5 @@
+//declared randomPass var in the global scope so it will be available to the write password function
+var randomPass = '';
 
 function generatePass() {
 //sets values for min and max password length parameters based on user input
@@ -65,7 +67,7 @@ function generatePass() {
 
   var passLength = randomLength(minLength,maxLength);
 
-
+  randomPass = generateString(passLength);
 
 }
 
