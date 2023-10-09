@@ -15,7 +15,10 @@ function generatePass() {
 
   var characters = '';
 
-  
+  var lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz';
+  var lowercaseLettersYN = window.prompt("Include lowercase letters? (Enter 'Y' or 'N')").toUpperCase();
+
+
 
 
 
