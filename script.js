@@ -25,7 +25,9 @@ function generatePass() {
   var uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   var uppercaseLettersYN = window.prompt("Include uppercase letters? (Enter 'Y' or 'N')").toUpperCase();
 
-
+  if (uppercaseLettersYN == "Y") {
+    characters = characters + uppercaseLetters;
+  } 
 
 
 
