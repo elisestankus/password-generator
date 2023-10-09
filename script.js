@@ -29,6 +29,9 @@ function generatePass() {
     characters = characters + uppercaseLetters;
   } 
 
+  var numbers = '0123456789';
+  var numbersYN = window.prompt("Include numbers? (Enter 'Y' or 'N')").toUpperCase();
+
 
 
 }
