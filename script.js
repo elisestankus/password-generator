@@ -51,6 +51,18 @@ function generatePass() {
     window.alert("Error: you must enter 'Y' for at least one type of character in order to generate a password.")
   }
 
+//returns random string made of the characters in the variable
+//source: https://www.programiz.com/javascript/examples/generate-random-strings
+
+  function generateString(length) {
+    let result = ' ';
+    for ( let i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+
+    return result;
+  }
+
 
 
 }
