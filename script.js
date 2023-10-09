@@ -1,4 +1,12 @@
-// Assignment code here
+function generatePass() {
+  var minLength = parseInt(window.prompt("Minimum password length:"));
+  var maxLength = parseInt(window.prompt("Maximum password length:"));
+
+  
+
+
+
+}
 
 
 // Get references to the #generate element
