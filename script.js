@@ -13,6 +13,10 @@ function generatePass() {
     return num;
   }
 
+  var characters = '';
+
+  
+
 
 
 }
