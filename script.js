@@ -63,6 +63,8 @@ function generatePass() {
     return result;
   }
 
+  var passLength = randomLength(minLength,maxLength);
+
 
 
 }
