@@ -23,3 +23,4 @@ https://elisestankus.github.io/password-generator/
 
 ## Screenshot
 
+<img src = "./password-generator-screenshot.png" alt="screenshot of password generator webpage">
