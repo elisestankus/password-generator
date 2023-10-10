@@ -15,6 +15,7 @@ To use this webpage, click on the "Generate Password" button and answer the prom
 ## Credits
 
 Source for randomLength function code: MDN https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
 Source for generateString function code: https://www.programiz.com/javascript/examples/generate-random-strings
 
 ## Link
